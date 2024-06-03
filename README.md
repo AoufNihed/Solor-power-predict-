@@ -1,6 +1,6 @@
 Solar Power Energy Generation Prediction
 This project aims to predict solar power energy generation using machine learning models. The dataset used in this project contains various environmental features like radiation, air temperature, wind speed, etc., and the target variable is the solar power energy generation.
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Dataset Description
 The dataset used in this project contains the following columns:
 
@@ -18,7 +18,7 @@ Seasonal decomposition analysis was performed to analyze the trends in solar pow
 
 Hourly Analysis
 Hourly analysis was conducted to analyze solar power energy generation trends throughout the day.
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Data Preprocessing
 Feature Engineering
 The date-time column was split into separate columns for day, month, year, and hour.
@@ -28,7 +28,7 @@ Ordinal encoding was applied to categorical variables like season, time, and hum
 
 Data Splitting
 The dataset was split into training and testing sets for model training and evaluation.
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Model Building
 Linear Regression
 A linear regression model was built using the OLS method.
@@ -43,5 +43,6 @@ Confusion matrices were generated for the following classification models:
 Logistic Regression
 Support Vector Machine (SVM)
 Gradient Boosting
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Conclusion
 In this project, we explored various machine learning models to predict solar power energy generation based on environmental factors. The random forest regression model showed promising results in predicting solar power energy generation.
